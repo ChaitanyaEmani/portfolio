@@ -16,6 +16,7 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+  padding-right: 2px;
 }
 
 button:focus {

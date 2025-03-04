@@ -6,7 +6,8 @@ import buildings from "../../Assets/Projects/buildings.png";
 import editor from "../../Assets/Projects/editor.jpg";
 import netflix from "../../Assets/Projects/netflix.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
-
+import restaurant from "../../Assets/Projects/restaurant.png"
+import homenest from "../../Assets/Projects/homenest.png"
 import todo from "../../Assets/Projects/todo.png";
 import organic from "../../Assets/Projects/organic.png";
 function Projects() {
@@ -21,6 +22,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={restaurant}
+              isBlog={false}
+              title="Restaurant"
+              description="Developed a responsive restaurant website which includes Home, Menu, Gallery, and Book a Table pages with immersive background images. Added smooth animations and a restaurant-themed image gallery showcasing dishes and ambiance."
+              ghLink="https://github.com/ChaitanyaEmani/restaurant"
+              demoLink="https://restaurant-4cd19.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={homenest}
+              isBlog={false}
+              title="Home Nest"
+              description="Developed and deployed Home Nest, a real estate website for selling flats and homes using ReactJS. It features an intuitive property listing system with details like name, price, and location. Added smooth animations for an enhanced user experience."
+              ghLink="https://github.com/ChaitanyaEmani/home-nest"
+              demoLink="https://home-nest-iota.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
@@ -34,17 +55,7 @@ function Projects() {
             />
           </Col>
           
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="User Management System"
-              description="The User-Management-System project is a web application for managing users.
-               It uses Node.js, Express, and MongoDB, and includes features for adding, editing, and deleting users."
-              ghLink="https://github.com/ChaitanyaEmani/User-Management-System"
-              // demoLink="https://chatify-49.web.app/"
-            />
-          </Col>" */}
+          
             
 
           <Col md={4} className="project-card">

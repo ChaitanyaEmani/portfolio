@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -25,37 +26,14 @@ function Home2() {
               </i> 
             <br />
             <br/>
-            I previously worked as a <i><b className="purple">Python Development Intern</b></i> at <i><b className="purple">I & T Labs</b></i> for <i><b className="purple">4 months</b></i> and 
-            as a <i><b className="purple">Web Development Intern</b></i> at <i><b className="purple">OctaNet </b></i>for <i><b className="purple">1 month.</b></i>
+            I am pursuing <i><b className="purple">Bachelor's of Technology</b></i> in <i><b className="purple">Computer Science and Engineering</b></i> at <i><b className="purple">Andhra University.</b></i> 
             <br />
             <br/>
-            I am good at <i><b className="purple">Problem Solving.</b></i> 
-            And proficient in <i><b className="purple">Python </b></i>and <i><b className="purple">C++</b></i> programming languages.
-            <br/>
-            <br/>
-            I Specialized in <i><b className="purple">frontend tech stack.</b></i> 
+           
+            
+            I previously worked as a <i><b className="purple">Web Development Intern</b></i> at <i><b className="purple">Technohacks</b></i>, as a <i><b className="purple">Python Development Intern</b></i> at <i><b className="purple">I & T Labs</b></i> for <i><b className="purple">four months</b></i>, and as a <i><b className="purple">Web Development Intern</b></i> at <i><b className="purple">OctaNet</b></i> for <i><b className="purple">one month.</b></i>   
               
-              
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products.</b> 
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+      
             </p>
           </Col>
           <Col md={4} className="myAvtar">
